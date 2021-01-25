@@ -1,0 +1,36 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto Web 2014121534</title>
+</head>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+<body>
+	<h1>ACERVO LITERARIO</h1>
+	<h2>Introduzca los datos que se le piden (para agregar registros):</h2>
+     <label>Título del Libro</label>
+	<input type="text" name="" id="nombreNuevoLibro" required>
+	<br>
+	<label>Autor</label>
+	<input type="text" name="" id="libroAutor">
+	<br>
+	<label>Editorial</label>
+	<input type="text" name="" id="libroEditorial">
+<br>
+	<button onclick="agregarDatos()">Agregar Registro</button>
+	<h2>Complete los campos que se le piden (editar y eliminar registros)</h2>
+	<br>
+	<label>ID</label>
+	<input type="text" name="" id="libroaEliminar">
+<br>
+	<button onclick="borrarDatosLibros()">Eliminar libro</button>
+	<br>
+	<button onclick="editarLibro()">Editar libro</button>
+	<br>
+	<button onclick="leerDatosLibro()">Buscar Registros</button>
+
+</body>
+<script type="text/javascript" src="js.js"></script>
+<LINK REL=StyleSheet HREF="CSS.css" TYPE="text/css" MEDIA=screen>
+</html>
